@@ -125,15 +125,27 @@ Après nettoyage, les analyses utilisent 293 étudiants. Les principales conclus
 - aucune association significative n'est détectée entre sexe et filière ;
 - les tests statistiques montrent une association, mais ne permettent pas de conclure à une relation causale.
 
-## Génération des figures
+## Figures du projet
 
-Les graphiques affichés par le script peuvent être enregistrés manuellement depuis la fenêtre Matplotlib ou capturés dans le dossier `Rapport/`. Les figures concernées peuvent inclure :
+### Valeur aberrante des heures d'étude
 
-- la distribution des notes ;
-- les notes par filière ;
-- le nuage de points heures d'étude/notes ;
-- les diagnostics des résidus ;
-- les graphiques empilés des tests du khi-deux.
+![Boxplot des heures d'étude avant nettoyage](Rapport/Figure_1.png)
+
+### Distribution des notes et comparaison par filière
+
+![Histogramme des notes et boxplots par filière](Rapport/Figure_2.png)
+
+### Heures d'étude et note en statistique
+
+![Nuage de points de la note en fonction des heures d'étude](Rapport/Figure_3.png)
+
+### Diagnostics de la régression
+
+![Résidus en fonction des valeurs ajustées et QQ-plot](Rapport/Figure_4.png)
+
+### Comparaison des notes entre filières
+
+![Boxplot des notes en statistique par filière](Rapport/Figure_5.png)
 
 ## Auteur
 
